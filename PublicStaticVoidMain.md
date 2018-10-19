@@ -17,7 +17,30 @@ In the above application example, we are using public static void main. Each wor
 
 
 ## public
+
+This is an ```Access Modifier```, which can be used to define who can have access this method. ```public``` means this method will be accessible by any class(Only the classes who can access this class).  
+
 ## static
+
+Static ss a keyword which identifies the class related thing. It means the given Method or variable is not instance related but Class related. It can be accessed without creating the instance of a Class.
+
 ## void
+
+Is used to define the Return Type of the Method. It defines what the method can return. Void means the Method will not return any value.
+
 ## main
+
+Main ss the name of the Method. This Method name is searched by JVM as a starting point for an application with a particular signature only.
+
 ## String args[]/String... args
+
+It is the parameter to the main Method. Argument name could be anything.
+
+
+
+
+
+
+
+
+
