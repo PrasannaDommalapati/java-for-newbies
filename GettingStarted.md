@@ -1,8 +1,6 @@
-# Java for newbies Getting Started
+# Getting Started
 
-This is a repository for getting started with Java programming for the beginners to Programming. This repository explains very basic of the programming.
-
-## Topics to be covered in this repository
+## Topics to be covered
 * How to download Java 
 * How to install java
 * How to download Java editors(Eclipse and Intellij), there are other alternatives too.
