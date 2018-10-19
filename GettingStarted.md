@@ -34,10 +34,10 @@ This is a repository for getting started with Java programming for the beginners
   * ```CLASSPATH :``` This environment variable points to the location of the JDK home directory. It also contains the address of folder from where jars get loaded by ClassLoader (For more details of ClassLoader visit here)
   
   * ```path :```      This environment variable will have the location of ```JAVA_HOME\bin```.
-  ```Example```:```C:\Program Files\Java\jdk1.8.0_60\bin```
+  Example :```C:\Program Files\Java\jdk1.8.0_60\bin```
   
   * ```JAVA_HOME :``` This environment variable will point to the location of the Java home directory.
-  ```Example```:```C:\Program Files\Java\jdk1.8.0_60```
+  Example :```C:\Program Files\Java\jdk1.8.0_60```
   
 ## How to verify that java is installed in your computer
 To check weather java is installed in your computer or not from the command prompt. To get the command prompt (Windows +R) type cmd then click on enter key.
@@ -48,7 +48,9 @@ Example: ```C:\Users\UserName>java -version
             java version "1.8.0_51"
             Java(TM) SE Runtime Environment (build 1.8.0_51-b16)
             Java HotSpot(TM) Client VM (build 25.51-b03, mixed mode, sharing)```
+
 If there is any problem while installing java or setting up environmental variable, the outcome in the command prompt will be as below:
+
 ``'java' is not recognized as internal or external command, operable program or batch file.'``
 
 ## Our First Java program
@@ -68,10 +70,27 @@ Java program should save with the name ```FirstJavaProgram.java``` in the folder
 
 Once the file is saved, open the command prompt and change the working directory to ```C:\java-for-newbies```. 
 ### Compile
-Then write ```javac FirstJavaProgram.java```. If it returns as below then the program is syntactically correct.
+Then write ```javac FirstJavaProgram.java``` in the command prompt and hit enter. If it returns as below then the program is syntactically correct.
 
 ```
 C:\Users\UserName> C:\ java-for-newbies
 C:\java-for-newbies> javac FirstJavaProgram.java
 ```
 ### Run
+
+If the program compiles successfully with out any errors, the compiler creates a class file in the same directory.
+
+Now that your  Java file is compiled we can execute the application using the “java” command as below.
+
+```
+C:\Users\UserName> C:\ java-for-newbies
+C:\java-for-newbies> java FirstJavaProgram
+
+Welcome to Java Programming!!!
+C:\java-for-newbies>
+```
+
+The “java” command uses the class file name without its extension(.class).
+
+With this, we are done creating and running our very first Java application.
+
