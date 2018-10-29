@@ -7,7 +7,7 @@ Also with the introduction of java args, instead of writing ```String args[], St
 
 ```
 public clas FirstJavaProgram {
-    public stastic void main(String args[]) {
+    public static void main(String args[]) {
         
         System.out.println("Welcome to Java Programming!!!");
     }
